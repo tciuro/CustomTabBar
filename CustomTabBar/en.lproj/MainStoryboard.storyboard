@@ -6,7 +6,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 2-->
+        <!--View Controller - Tab 2-->
         <scene sceneID="khC-f8-jhJ">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMt-y5-mPJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19,15 +19,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="help_pointer_down_center.png" id="SYO-qm-qMb">
+                                <rect key="frame" x="0.0" y="195" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="CPd-K1-zDg">
+                                <rect key="frame" x="92" y="214" width="136" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Igx-Bj-P61"/>
+                    <tabBarItem key="tabBarItem" title="Tab 2" id="Igx-Bj-P61"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="29" y="221"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--View Controller - Tab 3-->
         <scene sceneID="l1z-WH-h3m">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBV-1O-9DK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -40,15 +52,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="help_pointer_down_center.png" id="dR6-PS-K9o">
+                                <rect key="frame" x="0.0" y="195" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Three" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gwN-qU-xOa">
+                                <rect key="frame" x="92" y="214" width="136" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="fsd-K4-IyK"/>
+                    <tabBarItem key="tabBarItem" title="Tab 3" id="fsd-K4-IyK"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="29" y="813"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--View Controller - Tab 1-->
         <scene sceneID="9WB-pv-Rvf">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VkD-nZ-EZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -61,10 +85,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="help_pointer_down_center.png" id="5u8-NC-tlD">
+                                <rect key="frame" x="0.0" y="195" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Wf1-hT-tvr">
+                                <rect key="frame" x="92" y="214" width="136" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Man-gw-44t"/>
+                    <tabBarItem key="tabBarItem" title="Tab 1" id="Man-gw-44t"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="29" y="-344"/>
@@ -83,15 +119,15 @@
                     <connections>
                         <segue destination="WWg-P4-KJX" kind="relationship" relationship="viewControllers" id="eyE-Ge-euJ"/>
                         <segue destination="Ced-BR-aTd" kind="relationship" relationship="viewControllers" id="Ssi-e6-UHL"/>
-                        <segue destination="Rn5-bg-2vz" kind="relationship" relationship="viewControllers" id="irD-kU-gjG"/>
-                        <segue destination="DWF-4S-Zmp" kind="relationship" relationship="viewControllers" id="6pn-J9-cUy"/>
-                        <segue destination="4I3-cR-RMS" kind="relationship" relationship="viewControllers" id="4NO-vT-R3Z"/>
+                        <segue destination="DWF-4S-Zmp" kind="relationship" relationship="viewControllers" id="KFi-Nk-Sep"/>
+                        <segue destination="Rn5-bg-2vz" kind="relationship" relationship="viewControllers" id="u3c-An-xYi"/>
+                        <segue destination="4I3-cR-RMS" kind="relationship" relationship="viewControllers" id="1ys-Fd-eXW"/>
                     </connections>
                 </tabBarController>
             </objects>
             <point key="canvasLocation" x="-829" y="813"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--View Controller - Tab 4-->
         <scene sceneID="3Pb-19-bgL">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="73p-fU-ukc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -104,15 +140,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="help_pointer_down_center.png" id="oli-qI-q99">
+                                <rect key="frame" x="0.0" y="195" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Four" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="vqd-b4-YGM">
+                                <rect key="frame" x="92" y="214" width="136" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="YGU-aJ-OIY"/>
+                    <tabBarItem key="tabBarItem" title="Tab 4" id="YGU-aJ-OIY"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="29" y="1400"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--View Controller - Tab 5-->
         <scene sceneID="28b-4e-Vtf">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BL6-Bk-KAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -125,16 +173,29 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="help_pointer_down_center.png" id="Q6b-J2-zFV">
+                                <rect key="frame" x="0.0" y="195" width="320" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Five" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Wm8-K3-McP">
+                                <rect key="frame" x="92" y="214" width="136" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Pzv-eV-ZOf"/>
+                    <tabBarItem key="tabBarItem" title="Tab 5" id="Pzv-eV-ZOf"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="29" y="1996"/>
         </scene>
     </scenes>
     <resources>
+        <image name="help_pointer_down_center.png" width="320" height="70"/>
         <image name="post_background-portrait.png" width="768" height="1004"/>
     </resources>
     <classes>
