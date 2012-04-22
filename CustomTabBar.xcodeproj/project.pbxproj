@@ -14,7 +14,8 @@
 		59210CA315429021000B17AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59210CA215429021000B17AC /* main.m */; };
 		59210CA715429021000B17AC /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59210CA615429021000B17AC /* WBAppDelegate.m */; };
 		59210CAA15429021000B17AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59210CA815429021000B17AC /* MainStoryboard.storyboard */; };
-		59210CAD15429021000B17AC /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59210CAC15429021000B17AC /* WBViewController.m */; };
+		59210CB6154290B0000B17AC /* post_background-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 59210CB4154290B0000B17AC /* post_background-portrait.png */; };
+		59210CB7154290B0000B17AC /* post_background-portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59210CB5154290B0000B17AC /* post_background-portrait@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,15 @@
 		59210C9615429021000B17AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59210C9815429021000B17AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59210C9A15429021000B17AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59210C9E15429021000B17AC /* CustomTabBar-Info.plist */ = {isa = PBXFileReference; path = "CustomTabBar-Info.plist"; sourceTree = "<group>"; };
+		59210C9E15429021000B17AC /* CustomTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabBar-Info.plist"; sourceTree = "<group>"; };
 		59210CA015429021000B17AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59210CA215429021000B17AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59210CA415429021000B17AC /* CustomTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "CustomTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		59210CA515429021000B17AC /* WBAppDelegate.h */ = {isa = PBXFileReference; path = WBAppDelegate.h; sourceTree = "<group>"; };
+		59210CA415429021000B17AC /* CustomTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		59210CA515429021000B17AC /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
 		59210CA615429021000B17AC /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
 		59210CA915429021000B17AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		59210CAB15429021000B17AC /* WBViewController.h */ = {isa = PBXFileReference; path = WBViewController.h; sourceTree = "<group>"; };
-		59210CAC15429021000B17AC /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
+		59210CB4154290B0000B17AC /* post_background-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_background-portrait.png"; sourceTree = "<group>"; };
+		59210CB5154290B0000B17AC /* post_background-portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_background-portrait@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +81,7 @@
 				59210CA515429021000B17AC /* WBAppDelegate.h */,
 				59210CA615429021000B17AC /* WBAppDelegate.m */,
 				59210CA815429021000B17AC /* MainStoryboard.storyboard */,
-				59210CAB15429021000B17AC /* WBViewController.h */,
-				59210CAC15429021000B17AC /* WBViewController.m */,
+				59210CB3154290B0000B17AC /* Images */,
 				59210C9D15429021000B17AC /* Supporting Files */,
 			);
 			path = CustomTabBar;
@@ -96,6 +96,15 @@
 				59210CA415429021000B17AC /* CustomTabBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59210CB3154290B0000B17AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				59210CB4154290B0000B17AC /* post_background-portrait.png */,
+				59210CB5154290B0000B17AC /* post_background-portrait@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +161,8 @@
 			files = (
 				59210CA115429021000B17AC /* InfoPlist.strings in Resources */,
 				59210CAA15429021000B17AC /* MainStoryboard.storyboard in Resources */,
+				59210CB6154290B0000B17AC /* post_background-portrait.png in Resources */,
+				59210CB7154290B0000B17AC /* post_background-portrait@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +175,6 @@
 			files = (
 				59210CA315429021000B17AC /* main.m in Sources */,
 				59210CA715429021000B17AC /* WBAppDelegate.m in Sources */,
-				59210CAD15429021000B17AC /* WBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
