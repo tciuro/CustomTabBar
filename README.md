@@ -1,6 +1,6 @@
 ## CustomTabBar
 <br/>
-![Alt text](customTabBar.png)
+![Alt text](https://github.com/tciuro/CustomTabBar/blob/master/customTabBar.png)
 <br/>
 <br/>
 
