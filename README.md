@@ -13,3 +13,11 @@ Main differences:
 -   the center button switches to its related UIViewController
 
 Feel free to improve it, comment or use it anywhere.
+
+## Contribute
+
+I'd love to include your contributions. Feel free to improve it, send comments or suggestions. If you have improvements please [send me a pull request](https://github.com/tciuro/CustomTabBar/pull/new/master).
+
+## Contact Me
+
+You can ping me on Twitter —[@titusmagnus](http://twitter.com/titusmagnus).
