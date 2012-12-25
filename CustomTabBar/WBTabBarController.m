@@ -34,6 +34,7 @@
 @implementation WBTabBarController
 
 @synthesize plusController;
+@synthesize centerButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -83,11 +84,22 @@
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:button];
+    self.centerButton = button;
 }
 
 - (void)buttonPressed:(id)sender
 {
     [self setSelectedIndex:2];
+}
+
+- (BOOL)tabBarHidden {
+    return self.centerButton.hidden && self.tabBar.hidden;
+}
+
+- (void)setTabBarHidden:(BOOL)tabBarHidden
+{
+    self.centerButton.hidden = tabBarHidden;
+    self.tabBar.hidden = tabBarHidden;
 }
 
 @end
