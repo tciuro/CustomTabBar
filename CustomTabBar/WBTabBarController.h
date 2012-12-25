@@ -30,6 +30,9 @@
 @interface WBTabBarController : UITabBarController
 
 @property(nonatomic, weak) IBOutlet UIViewController *plusController;
+@property(nonatomic, weak) IBOutlet UIButton *centerButton;
+
+@property(nonatomic, assign) BOOL tabBarHidden;
 
 -(void)addCenterButtonWithImage:(UIImage *)buttonImage highlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action;
 
