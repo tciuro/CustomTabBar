@@ -90,7 +90,22 @@
 - (void)buttonPressed:(id)sender
 {
     [self setSelectedIndex:2];
+    //DEMO
+    //[self setTabBarHidden:YES];
+    //[self performSelector:@selector(next) withObject:nil afterDelay:2];
 }
+
+//DEMO
+//- (void)next {
+//    [self setSelectedIndex:4];
+//    [self performSelector:@selector(next2) withObject:nil afterDelay:2];
+//}
+//
+//- (void)next2
+//{
+//    [self setSelectedIndex:1];
+//    [self setTabBarHidden:NO];
+//}
 
 - (BOOL)tabBarHidden {
     return self.centerButton.hidden && self.tabBar.hidden;
@@ -100,6 +115,18 @@
 {
     self.centerButton.hidden = tabBarHidden;
     self.tabBar.hidden = tabBarHidden;
+    [self.view setNeedsLayout];
+}
+
+- (void)viewDidLayoutSubviews
+{
+    if(self.tabBar.hidden) {
+        for(UIView *v in self.view.subviews) {
+            if(!v.isHidden) {
+                v.frame = self.view.bounds;
+            }
+        }
+    }
 }
 
 @end
