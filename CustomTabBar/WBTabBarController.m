@@ -90,6 +90,22 @@
 - (void)buttonPressed:(id)sender
 {
     [self setSelectedIndex:2];
+    [self performSelector:@selector(doHighlight:) withObject:sender afterDelay:0];
+}
+
+- (void)doHighlight:(UIButton*)b {
+    [b setHighlighted:YES];
+}
+
+- (void)doNotHighlight:(UIButton*)b {
+    [b setHighlighted:NO];
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
+{
+    if(self.tabBarController.selectedIndex != 2){
+        [self performSelector:@selector(doNotHighlight:) withObject:centerButton afterDelay:0];
+    }
 }
 
 - (BOOL)tabBarHidden {
